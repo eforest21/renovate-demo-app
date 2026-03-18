@@ -4,6 +4,13 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
+  ,
+  "packageRules": [
+    {
+      "matchDepTypes": ["devDependencies"],
+      "groupName": "dev dependencies"
+    }
+  ],
   "dependencyDashboard": true,
   "separateMajorMinor": true,
   "prConcurrentLimit": 10

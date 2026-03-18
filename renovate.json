@@ -4,7 +4,6 @@
     "config:recommended",
     "mergeConfidence:all-badges"
   ],
-  ,
   "packageRules": [
     {
       "matchDepTypes": ["devDependencies"],

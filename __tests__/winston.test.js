@@ -1,8 +1,8 @@
-const winston = require('winston');
+import winston from 'winston';
 
-test('erstellt einen Logger und loggt eine Nachricht', () => {
-  const logger = new winston.createLogger({
-    transports: [new winston.transports.Console({ silent: true })],
-  });
-  logger.info('Testmeldung');
+const logger = winston.createLogger({
+  level: 'info',
+  transports: [new winston.transports.Console({ silent: true })],
 });
+
+logger.info('Testmeldung');

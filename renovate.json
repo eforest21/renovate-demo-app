@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "schedule": ["before 6am on monday"],
+  "schedule": ["on every day"],
   "timezone": "Europe/Berlin",
   "prConcurrentLimit": 3,
   "minimumReleaseAge": "3 days",
